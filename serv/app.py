@@ -3,7 +3,7 @@ import json
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 
-from helper import predecir
+from helpers import predecir
 
 app = Flask(__name__)
 
